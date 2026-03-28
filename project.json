@@ -1,7 +1,7 @@
 {
-  "name": "Agent2",
+  "name": "AgentFinal",
   "projectId": "047d05a9-1756-47a2-98b9-8e292df32e36",
-  "description": "Blank Process",
+  "description": "Final Agent with Git",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.3.1]",
@@ -15,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.10.6.0",
-  "projectVersion": "1.0.9",
+  "projectVersion": "1.0.10",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

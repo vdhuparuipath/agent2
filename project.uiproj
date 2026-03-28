@@ -1,6 +1,6 @@
 {
-  "Name": "Agent2",
+  "Name": "AgentFinal",
   "ProjectType": "Process",
-  "Description": "Blank Process",
+  "Description": "Final Agent with Git",
   "MainFile": "Main.xaml"
 }
