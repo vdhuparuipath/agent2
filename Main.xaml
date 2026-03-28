@@ -173,7 +173,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="488,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="C:\AgentResponses\session1_agent_2_stock.txt" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Agent Name from argument value is&quot; + in_agentname]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Agent Name from argument 1value is&quot; + in_agentname]" />
     <uga:GetFileListConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Null}" ManualEntryLocation="{x:Null}" QueryFilter="{x:Null}" AllLabels="W10=" AuthScopesInvalid="False" BrowserLocation="https://drive.google.com/drive/folders/1nk5kLC9a3xM4ncPsQNvtVNb5G07JnCpV" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" DisplayName="Get File or Folder List" FilterSelectionMode="ConditionBuilder" sap:VirtualizedContainerService.HintSize="488,185" sap2010:WorkflowViewState.IdRef="GetFileListConnections_1" LocationFriendlyName="apiprompts" LocationInputMode="Browse" MaxResults="200" Result="[getFileList]" StarredOnly="False" UseConnectionService="True" WhatToReturn="Files">
       <uga:GetFileListConnections.Filter>
         <ugadf:FileFilterArgument LogicalOperator="And">
