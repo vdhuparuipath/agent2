@@ -6,18 +6,6 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
-      "Name": "in_agentname",
-      "DisplayName": "in_agentname",
-      "Category": null,
-      "Tooltip": null,
-      "Placeholder": null,
-      "Widget": null,
-      "IsRequired": false,
-      "IsPrincipal": true,
-      "ArgumentType": 0,
-      "DataSourceItems": null
-    },
-    {
       "Name": "in_agentFileName",
       "DisplayName": "in_agentFileName",
       "Category": null,
@@ -47,6 +35,18 @@
       "Category": null,
       "Tooltip": null,
       "Placeholder": "0",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_agentName",
+      "DisplayName": "in_agentName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
       "Widget": null,
       "IsRequired": false,
       "IsPrincipal": true,

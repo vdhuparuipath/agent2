@@ -8,21 +8,27 @@
       "input": {
         "type": "object",
         "properties": {
-          "in_agentname": {
-            "type": "string"
-          },
           "in_agentFileName": {
-            "type": "string"
+            "type": "string",
+            "x-default-expression": "\"session1_agent_5_historical.txt\"",
+            "default": "session1_agent_5_historical.txt"
           },
           "in_responseFileName": {
-            "type": "string"
+            "type": "string",
+            "x-default-expression": "\"agent_5_historical_response.json\"",
+            "default": "agent_5_historical_response.json"
           },
           "in_agentWaitingTimeout": {
             "type": "integer",
             "minimum": -2147483648,
             "maximum": 2147483647,
-            "x-default-expression": "0",
-            "default": 0
+            "x-default-expression": "540000",
+            "default": 540000
+          },
+          "in_agentName": {
+            "type": "string",
+            "x-default-expression": "\"agent5\"",
+            "default": "agent5"
           }
         },
         "required": []
